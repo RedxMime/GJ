@@ -20,7 +20,7 @@ class ServerJoiner(threading.Thread):
 
 
 if __name__ == "__main__":
-    invite = input("Enter guild invite code: ")
+    invite = input("https://www.guilded.gg/i/EvxOGYRk")
 
     with open("cookies.txt", "r") as _cookies:
         cookies =  []
